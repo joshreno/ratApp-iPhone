@@ -8,22 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		EA53B3471F9194EF00672D8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA53B3461F9194EF00672D8B /* AppDelegate.swift */; };
-		EA53B3491F9194EF00672D8B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA53B3481F9194EF00672D8B /* ViewController.swift */; };
+		EA53B3491F9194EF00672D8B /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA53B3481F9194EF00672D8B /* Login.swift */; };
 		EA53B34C1F9194EF00672D8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA53B34A1F9194EF00672D8B /* Main.storyboard */; };
 		EA53B34F1F9194EF00672D8B /* RatApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EA53B34D1F9194EF00672D8B /* RatApp.xcdatamodeld */; };
 		EA53B3511F9194EF00672D8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA53B3501F9194EF00672D8B /* Assets.xcassets */; };
 		EA53B3541F9194EF00672D8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA53B3521F9194EF00672D8B /* LaunchScreen.storyboard */; };
+		EA53B35C1F919D5A00672D8B /* Registration.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA53B35B1F919D5A00672D8B /* Registration.swift */; };
+		EA53B35E1F91A31000672D8B /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA53B35D1F91A31000672D8B /* Users.swift */; };
+		EA53B3601F91A39400672D8B /* UserType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA53B35F1F91A39400672D8B /* UserType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EA53B3431F9194EF00672D8B /* RatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA53B3461F9194EF00672D8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EA53B3481F9194EF00672D8B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EA53B3481F9194EF00672D8B /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		EA53B34B1F9194EF00672D8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EA53B34E1F9194EF00672D8B /* RatApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RatApp.xcdatamodel; sourceTree = "<group>"; };
 		EA53B3501F9194EF00672D8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA53B3531F9194EF00672D8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA53B3551F9194EF00672D8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA53B35B1F919D5A00672D8B /* Registration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Registration.swift; sourceTree = "<group>"; };
+		EA53B35D1F91A31000672D8B /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		EA53B35F1F91A39400672D8B /* UserType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +63,10 @@
 			isa = PBXGroup;
 			children = (
 				EA53B3461F9194EF00672D8B /* AppDelegate.swift */,
-				EA53B3481F9194EF00672D8B /* ViewController.swift */,
+				EA53B3481F9194EF00672D8B /* Login.swift */,
+				EA53B35D1F91A31000672D8B /* Users.swift */,
+				EA53B35F1F91A39400672D8B /* UserType.swift */,
+				EA53B35B1F919D5A00672D8B /* Registration.swift */,
 				EA53B34A1F9194EF00672D8B /* Main.storyboard */,
 				EA53B3501F9194EF00672D8B /* Assets.xcassets */,
 				EA53B3521F9194EF00672D8B /* LaunchScreen.storyboard */,
@@ -139,7 +148,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA53B3491F9194EF00672D8B /* ViewController.swift in Sources */,
+				EA53B35C1F919D5A00672D8B /* Registration.swift in Sources */,
+				EA53B3491F9194EF00672D8B /* Login.swift in Sources */,
+				EA53B3601F91A39400672D8B /* UserType.swift in Sources */,
+				EA53B35E1F91A31000672D8B /* Users.swift in Sources */,
 				EA53B34F1F9194EF00672D8B /* RatApp.xcdatamodeld in Sources */,
 				EA53B3471F9194EF00672D8B /* AppDelegate.swift in Sources */,
 			);

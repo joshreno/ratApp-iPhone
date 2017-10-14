@@ -8,8 +8,19 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class Login: UIViewController {
 
+    @IBAction func login(_ sender: UIButton) {
+        let data = Users.getFromDictionary(username: username.text!)
+        if data.1 == password.text! {
+            
+        }
+    }
+
+    @IBOutlet weak var username: UITextField!
+    
+    @IBOutlet weak var password: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
